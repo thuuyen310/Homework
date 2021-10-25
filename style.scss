@@ -1,0 +1,140 @@
+header{
+    padding-bottom:0;
+    margin-bottom:0;
+    .navbar{
+        border-bottom: 0.001px solid #E0E0E0 ;
+    }
+    .nav-link{
+        color:black;
+        font-family: 'Roboto', sans-serif ;
+    }
+}
+.container{
+    font-family: 'Prociono', serif;
+    h1{
+        line-height: 5rem;
+        letter-spacing: 0.6rem;
+    }
+}
+.navbar-nav{
+    a{
+        font-size: 100%;
+        font-family: "Brygada 1918", serif;
+    }
+}
+content{
+    text-align: center;
+    @media screen and (max-width:740px){
+        h2{
+            padding-left:2%;
+            font-family: 'Zen Antique Soft', serif;
+            font-size: 3em;
+            color:black;
+            letter-spacing: 0.0001em;
+            width:90%;
+        }
+        #poster{
+            width:100%;
+            margin-top:13%;
+        }
+        h3{
+            margin-left:10%;
+            margin-right: 50%;
+            padding:0.61%;
+            font-size:1.3rem;
+            letter-spacing:0.0005em;
+            font-family: monospace,'Courier New', Courier, monospace;
+            line-height: 2.125rem;
+            font-weight: normal;
+            width:85%;
+         }
+         .content--desktop{
+            display: none;
+        }
+    }
+    h2{
+        font-family: 'Zen Antique Soft', serif, bold;
+        color:black;
+        font-size: 2.5rem;
+        margin-top:3%;
+    }
+    .row{
+        img{
+            margin: 6% 0;
+            width:100%;
+        }
+        h4{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 145%;
+            width: 90%;
+            text-align: center;
+            color:black;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top:2%;
+            margin-bottom:10%;
+            padding:0 4%;
+        }
+    }
+}
+footer{
+    background-color: black;
+    margin-top: 5%;
+    padding-bottom:3%;
+    color:white;
+    text-align: center;
+    .container-xxl{
+        width:100%;
+        font-size: 110%;
+    }
+    @media screen and (max-width:740px){
+        .desktop{
+            display: none;
+        }
+        h5{
+            font-size: xx-small;
+        }
+        p{
+            margin: 0 10%;
+            padding-left: 9%;
+            padding-right: 10%;
+            padding-bottom: 5%;
+            width:89%;
+        }
+    }
+    h5{
+        font-weight:620;
+        margin:0 0;
+        padding: 0 0;
+        width:100%;
+        font-size: 140%;
+        letter-spacing: 0.05rem;
+    }
+    .note{
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+        font-weight:300;
+    }
+    h1{
+        font-family: 'Prociono', serif;
+        line-height: 5rem;
+        letter-spacing: 0.6rem;
+        text-align: center;
+        margin-top:3%;
+    }
+    a{
+        color:white;
+        padding-top: 30%;
+        margin: 10% 0;
+    }
+    @media screen and (min-width:1024px){
+        p{
+            text-align: center;
+            margin: 0 33%;
+            padding-bottom: 5%;
+        }
+    }
+    span{
+        font-size: 75%;
+    }
+}
