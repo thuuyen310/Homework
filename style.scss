@@ -24,6 +24,44 @@ header{
 }
 content{
     text-align: center;
+    @media screen and (min-width:1024px){
+        padding:20% 10%;
+        .container-fluid{
+            hr{
+                border:  2px solid black;
+                width:80%;
+                text-align: center;
+                align-items: center;
+            }
+            #poster{
+                width:70%;
+                margin:3%;
+            }
+            h2{
+                font-family: 'Zen Antique Soft', serif;
+                padding:0 24%;
+                font-size: 3.24em;
+                color:black;
+                letter-spacing: 0.0001em;
+                width:99%;
+            }
+            h3{
+               margin-left:2%;
+               padding:0 30%;
+               font-size:1.39rem;
+               letter-spacing:0.001em;
+               font-family: monospace,'Courier New', Courier, monospace;
+               line-height: 2.125rem;
+               font-weight: normal;
+               width:98%;
+            }
+            main{
+                .content--mobile{
+                    display:none;
+                }
+            }
+        }
+    }
     @media screen and (max-width:740px){
         h2{
             padding-left:2%;
