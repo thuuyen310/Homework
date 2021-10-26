@@ -1,0 +1,197 @@
+header {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+header .navbar {
+  border-bottom: 0.001px solid #E0E0E0;
+}
+
+header .nav-link {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  font-family: 'Prociono', serif;
+}
+
+.container h1 {
+  line-height: 5rem;
+  letter-spacing: 0.6rem;
+}
+
+.navbar-nav a {
+  font-size: 100%;
+  font-family: "Brygada 1918", serif;
+}
+
+content {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  content {
+    padding: 20% 10%;
+  }
+  content .container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  content .container-fluid #poster {
+    width: 70%;
+    margin: 3%;
+  }
+  content .container-fluid h2 {
+    font-family: 'Zen Antique Soft', serif;
+    padding: 0 24%;
+    font-size: 3.24em;
+    color: black;
+    letter-spacing: 0.0001em;
+    width: 99%;
+  }
+  content .container-fluid h3 {
+    margin-left: 2%;
+    padding: 0 30%;
+    font-size: 1.39rem;
+    letter-spacing: 0.001em;
+    font-family: monospace,'Courier New', Courier, monospace;
+    line-height: 2.125rem;
+    font-weight: normal;
+    width: 98%;
+  }
+  content .container-fluid main .content--mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  content h2 {
+    padding-left: 2%;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 3em;
+    color: black;
+    letter-spacing: 0.0001em;
+    width: 90%;
+  }
+  content #poster {
+    width: 100%;
+    margin-top: 13%;
+  }
+  content h3 {
+    margin-left: 10%;
+    margin-right: 50%;
+    padding: 0.61%;
+    font-size: 1.3rem;
+    letter-spacing: 0.0005em;
+    font-family: monospace,'Courier New', Courier, monospace;
+    line-height: 2.125rem;
+    font-weight: normal;
+    width: 85%;
+  }
+  content .content--desktop {
+    display: none;
+  }
+}
+
+content h2 {
+  font-family: 'Zen Antique Soft', serif, bold;
+  color: black;
+  font-size: 2.5rem;
+  margin-top: 3%;
+}
+
+content .row img {
+  margin: 6% 0;
+  width: 100%;
+}
+
+content .row h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 145%;
+  width: 90%;
+  text-align: center;
+  color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+  padding: 0 4%;
+}
+
+footer {
+  background-color: black;
+  margin-top: 5%;
+  padding-bottom: 3%;
+  color: white;
+  text-align: center;
+}
+
+footer .container-xxl {
+  width: 100%;
+  font-size: 110%;
+}
+
+@media screen and (max-width: 740px) {
+  footer .desktop {
+    display: none;
+  }
+  footer h5 {
+    font-size: xx-small;
+  }
+  footer p {
+    margin: 0 10%;
+    padding-left: 9%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    width: 89%;
+  }
+}
+
+footer h5 {
+  font-weight: 620;
+  margin: 0 0;
+  padding: 0 0;
+  width: 100%;
+  font-size: 150%;
+  letter-spacing: 0.05rem;
+}
+
+footer .note {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+footer h1 {
+  font-family: 'Prociono', serif;
+  line-height: 5rem;
+  letter-spacing: 0.6rem;
+  text-align: center;
+  margin-top: 3%;
+}
+
+footer a {
+  color: white;
+  padding-top: 30%;
+  margin: 10% 0;
+}
+
+@media screen and (min-width: 1024px) {
+  footer p {
+    text-align: center;
+    margin: 0 33%;
+    padding-bottom: 5%;
+  }
+}
+
+footer span {
+  font-size: 75%;
+}
+/*# sourceMappingURL=style.css.map */
